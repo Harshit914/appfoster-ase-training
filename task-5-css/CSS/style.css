@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  margin-left: 15%;
+  margin-bottom: 20%;
+  margin-top: 2%;
+  max-width: 1000px;
+  height: 112vh;
+  display: flex;
+  border: 1px solid black;
+}
+
+.right-side {
+  width: 55%;
+  border-left: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  background-color: #6050dc;
+  color: white;
+}
+
+.photo-section {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #545aa7;
+}
+
+.image {
+  border-radius: 50%;
+  object-fit: fill;
+  margin-bottom: 10px;
+}
+
+.name {
+  margin-bottom: 5px;
+  font-size: larger;
+  font-weight: 900;
+}
+
+.details {
+  margin: 10%;
+}
+
+.details p {
+  padding-bottom: 16px;
+}
+
+.education {
+  margin: 10%;
+}
+
+.edu1,
+.edu2 {
+  font-size: small;
+  padding-bottom: 10px;
+}
+
+.languages {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.left-side {
+  margin: 5% 8%;
+  padding-bottom: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 12%;
+  font-size: medium;
+}
+
+.title {
+  color: #008b8b;
+  margin-bottom: 15px;
+}
+
+.Description :first-child {
+  margin-bottom: 20px;
+}
+
+.combine-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.line-div {
+  display: flex;
+}
+
+.line-div-heading1 {
+  width: 40%;
+}
+
+.line-div-heading2 {
+  width: 28.5%;
+}
+
+.line1 {
+  background-color: #6050dc;
+  width: 100%;
+}
+
+.line2 {
+  background-color: #6050dc;
+  width: 40%;
+  display: flex;
+}
+
+.fade-text {
+  opacity: 0.7;
+}
+
+.icons-div-right {
+  display: flex;
+  gap: 5px;
+}
+
+.icon-div-left {
+  display: flex;
+  gap: 8px;
+}
+
+.icon-style-left {
+  width: 30px;
+  height: 30px;
+  background-color: #008b8b;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
