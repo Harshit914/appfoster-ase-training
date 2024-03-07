@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form>
+        <!-- Primary Details -->
+        <fieldset class="applygap">
+          <legend>Primary Details:</legend>
+          <!-- Medicare -->
+          <div style="display: flex">
+            <div style="width: 350px"></div>
+            <p>Valid Till</p>
+          </div>
+
+          <div class="medicare">
+            <div style="display: flex">
+              <label for="medicare" class="widthandmargin" style="width: 120px"
+                >Medicare No</label
+              >
+              <div style="display: flex; gap: 2px">
+                <input type="text" id="medicare" size="20" /> /
+                <input type="text" id="medicare" size="1" />
+              </div>
+            </div>
+
+            <div
+              style="display: flex; flex-direction: column; margin-left: 2px"
+            >
+              <div style="display: flex; gap: 2px">
+                <input type="date" id="validtill" />
+                <div
+                  style="
+                    background-color: rgb(225, 225, 225);
+                    width: 20px;
+                    height: 20px;
+                    border: 1px solid rgb(108, 101, 101);
+                  "
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Title -->
+          <div>
+            <label for="title" class="widthandmargin" style="margin-right: 85px"
+              >Title</label
+            >
+            <select name="title" id="title">
+              <option value="None" s>None</option>
+            </select>
+          </div>
+
+          <!-- Name -->
+          <div>
+            <p style="display: flex; margin-left: 136px">
+              Lastname, Firstname, Middlen
+            </p>
+            <div style="display: flex">
+              <label for="name" class="widthandmargin" style="width: 120px"
+                >Name</label
+              >
+              <input type="text" id="name" size="35" />
+            </div>
+          </div>
+
+          <!-- Pref Name -->
+          <div class="prefname">
+            <label for="pref" class="widthandmargin" style="margin-right: 35px"
+              >Pref. Name</label
+            >
+            <input type="text" id="pref" />
+          </div>
+
+          <!-- DOB -->
+          <div class="dob">
+            <label for="DOB" class="widthandmargin" style="margin-right: 80px"
+              >DOB</label
+            >
+            <input type="checkbox" id="DOB" />
+            <input type="date" id="DOB" />
+          </div>
+
+          <!-- Sex -->
+          <div class="gender" style="display: flex">
+            <label for="sex" class="widthandmargin" style="margin-right: 90px"
+              >Sex</label
+            >
+            <div id="sex">
+              <input type="radio" id="male" name="gender" />
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="gender" />
+              <label for="female">Female</label>
+            </div>
+          </div>
+
+          <!-- Family Name -->
+          <div style="display: flex; margin-bottom: 8px">
+            <label
+              for="familyname"
+              class="widthandmargin"
+              style="margin-right: 24px"
+              >Family Name</label
+            >
+            <div style="display: flex; gap: 2px">
+              <input type="text" id="familyname" />
+              <div
+                style="
+                  background-color: rgb(225, 225, 225);
+                  width: 38px;
+                  height: 22px;
+                  text-decoration: underline;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border: 1px solid rgb(108, 101, 101);
+                "
+              >
+                N
+              </div>
+              <div
+                style="
+                  background-color: rgb(225, 225, 225);
+                  width: 38px;
+                  height: 22px;
+                  text-decoration: underline;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border: 1px solid rgb(108, 101, 101);
+                "
+              >
+                I
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- Contact Details -->
+        <fieldset class="applygap">
+          <legend>Contact Details</legend>
+          <!-- Phone -->
+          <div>
+            <div style="display: flex; margin-left: 134px; gap: 125px">
+              <p>Home</p>
+              <p>Work</p>
+            </div>
+            <div style="display: flex; gap: 2px">
+              <label
+                for="phone"
+                class="widthandmargin"
+                style="margin-right: 70px"
+                >Phone</label
+              >
+              <div id="phone">
+                <input type="text" id="home" />
+              </div>
+              <div id="phone">
+                <input type="text" id="work" />
+              </div>
+            </div>
+
+            <div style="display: flex; margin-left: 134px; gap: 125px">
+              <p>Mobile</p>
+              <p>Fax</p>
+            </div>
+            <div style="display: flex; margin-left: 132px">
+              <div id="phone">
+                <input type="text" id="mobile" />
+              </div>
+              <div id="phone">
+                <input type="text" id="fax" />
+              </div>
+            </div>
+
+            <div style="display: flex; margin-left: 134px; gap: 93px">
+              <p>Next of Kin</p>
+              <p>Next of Kin Ph:</p>
+            </div>
+            <div style="display: flex; margin-left: 132px">
+              <div id="phone">
+                <input type="text" id="kin" />
+              </div>
+              <div id="phone">
+                <input type="text" id="kin" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Emergency -->
+          <div>
+            <label for="emer" class="widthandmargin" style="margin-right: 3.6px"
+              >Emergency. No</label
+            >
+            <input type="text" id="emer" />
+          </div>
+
+          <!-- Email -->
+          <div style="margin-bottom: 8px">
+            <label for="email" class="widthandmargin" style="margin-right: 73px"
+              >Email</label
+            >
+            <input type="text" id="email" />
+          </div>
+        </fieldset>
+
+        <!-- Address Details -->
+        <fieldset class="applygap" style="position: relative">
+          <!-- Residental Address -->
+          <fieldset>
+            <legend>Residental Address</legend>
+            <div>
+              <div>
+                <label
+                  for="add1"
+                  class="widthandmargin"
+                  style="margin-right: 38px"
+                  >Address 1</label
+                >
+                <input type="text" id="add1" size="46" />
+              </div>
+              <div>
+                <label
+                  for="add2"
+                  class="widthandmargin"
+                  style="margin-right: 38px"
+                  >Address 2</label
+                >
+                <input type="text" id="add2" size="46" />
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 15px">
+              <div>
+                <label
+                  for="sub"
+                  class="widthandmargin"
+                  style="margin-right: 59px"
+                  >Suburb</label
+                >
+                <input type="text" id="sub" size="15" />
+              </div>
+              <div>
+                <label for="state" style="margin-right: 10px">State</label>
+                <select id="state" style="width: 80px">
+                  <option value="Vic">VIC</option>
+                </select>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 30px; margin-bottom: 18px">
+              <div style="display: flex">
+                <label
+                  for="pc"
+                  class="widthandmargin"
+                  style="margin-right: 28px"
+                  >Postal Code</label
+                >
+                <div style="display: flex; gap: 3px">
+                  <input type="text" id="pc" size="7" />
+                  <div
+                    style="
+                      width: 20px;
+                      height: 20px;
+                      border: 1px solid black;
+                      display: flex;
+                      padding-left: 1px;
+                      align-items: center;
+                    "
+                  >
+                    ?
+                  </div>
+                </div>
+              </div>
+              <div>
+                <label for="country">Country</label>
+                <input type="text" id="country" size="17" />
+              </div>
+            </div>
+            <div
+              style="
+                position: absolute;
+                width: 150px;
+                height: 22px;
+                background-color: rgb(225, 225, 225);
+                top: 98px;
+                left: 180px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              "
+            >
+              Normal
+            </div>
+          </fieldset>
+
+          <!-- Single Address -->
+          <fieldset class="applygap">
+            <legend>Single Address</legend>
+            <div style="margin-bottom: 8px">
+              <label for="sin" class="widthandmargin"
+                >Are mailing and Residental Address same ?</label
+              >
+              <input type="checkbox" id="sin" />
+              <label for="sin">Yes</label>
+            </div>
+          </fieldset>
+
+          <!-- Mailing Address -->
+          <fieldset class="applygap">
+            <legend>Mailing Address</legend>
+            <div>
+              <div>
+                <label
+                  for="add1"
+                  class="widthandmargin"
+                  style="margin-right: 38px"
+                  >Address 1</label
+                >
+                <input type="text" id="add1" size="46" />
+              </div>
+              <div>
+                <label
+                  for="add2"
+                  class="widthandmargin"
+                  style="margin-right: 38px"
+                  >Address 2</label
+                >
+                <input type="text" id="add2" size="46" />
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 15px">
+              <div>
+                <label
+                  for="sub"
+                  class="widthandmargin"
+                  style="margin-right: 59px"
+                  >Suburb</label
+                >
+                <input type="text" id="sub" size="15" />
+              </div>
+              <div>
+                <label for="state" style="margin-right: 10px">State</label>
+                <select id="state" style="width: 85px">
+                  <option value="VIc">VIC</option>
+                </select>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 30px; margin-bottom: 8px">
+              <div style="display: flex">
+                <label
+                  for="pc"
+                  class="widthandmargin"
+                  style="margin-right: 28px"
+                  >Postal Code</label
+                >
+                <div style="display: flex; gap: 3px">
+                  <input type="text" id="pc" size="7" />
+                  <div
+                    style="
+                      width: 20px;
+                      height: 20px;
+                      border: 1px solid black;
+                      display: flex;
+                      padding-left: 1px;
+                      align-items: center;
+                    "
+                  >
+                    ?
+                  </div>
+                </div>
+              </div>
+              <div>
+                <label for="country">Country</label>
+                <input type="text" id="country" size="17" />
+              </div>
+            </div>
+          </fieldset>
+        </fieldset>
+
+        <!-- Extra -->
+        <div class="applygap" style="margin-top: 8px">
+          <div style="display: flex; gap: 29px">
+            <label for="inum" class="widthandmargin" style="margin-right: 6px"
+              >IHI Number</label
+            >
+            <label for="inum">80036</label>
+            <input type="text" id="inum" size="20" />
+          </div>
+
+          <div>
+            <label for="nums" class="widthandmargin" style="margin-right: 6px"
+              >Number Status</label
+            >
+            <input type="text" id="nums" size="31" />
+          </div>
+
+          <div>
+            <label for="rs" class="widthandmargin" style="margin-right: 11px"
+              >Record Status</label
+            >
+            <input type="text" id="rs" size="31" />
+          </div>
+
+          <div>
+            <label for="ls" class="widthandmargin" style="margin-right: 32.5px"
+              >Last Status</label
+            >
+            <input type="text" id="ls" size="31" />
+          </div>
+        </div>
+
+        <!-- buttons -->
+        <div
+          style="
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 28px;
+            margin-bottom: 8px;
+          "
+        >
+          <input type="button" value="Submit" style="width: 150px" />
+          <input type="button" value="Clear" style="width: 150px" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
