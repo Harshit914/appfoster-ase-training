@@ -1,0 +1,28 @@
+    1  clear
+    2  cd task-7-cli
+    3  ls
+    4  ls -l
+    5  mkdir mywebsite
+    6  rm mywebsite
+    7  rmdir mywebsite
+    8  ls
+    9  mkdir mywebsite
+   10  ls
+   11  touch example.md
+   12  mv example.md /mywebsite
+   13  mv example ./mywebsite
+   14  mv example.md ./mywebsite
+   15  ls
+   16  cp ./mywebsite/example.md ../
+   17  cp ./mywebsite/example.md ./
+   18  rm example.md
+   19  ls -l
+   20  touch myfile.txt
+   21  wc -l myfile.txt
+   22  ls | wc -l
+   23  curl https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch
+   24  curl https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch -L -I | grep location
+   25  curl https://www.wikipedia.org/
+   26  history > cli_history.txt
+   27  cat myfile.txt
+   38  history > cli_history.txt
