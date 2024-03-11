@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 9 JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="firstContainer">
+        <div class="applyflex">
+          <label for="enternumber">Enter a number</label>
+          <input
+            style="margin: 2px"
+            type="text"
+            id="enternumber"
+            class="enternumberinput"
+          />
+        </div>
+
+        <div class="applyflex">
+          <label for="splitting">Enter number of times you want to split</label>
+          <input
+            style="margin: 2px"
+            type="text"
+            id="splitting"
+            class="splitinput"
+          />
+        </div>
+      </div>
+
+      <div class="firstContainer btndiv">
+        <button class="btn" onclick="split()">Split</button>
+      </div>
+
+      <div class="container"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
