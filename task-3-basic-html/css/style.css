@@ -3,19 +3,28 @@
   border: 1px solid black;
   padding: 5%;
   margin: 5%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .upper-section {
   display: flex;
-  max-height: 300px;
+  max-height: 20rem;
   gap: 5%;
   margin-bottom: 10%;
 }
 
+.details-div {
+  margin-left: 2%;
+}
+
+.flex-property {
+  display: flex;
+}
+
 .details {
   background-color: rgb(245, 245, 245);
-  width: 50%;
-  padding-left: 10px;
+  width: 60%;
+  padding-left: 2%;
 }
 
 a {
@@ -25,8 +34,8 @@ a {
 }
 
 .img-container {
-  width: 50%;
-  padding-left: 150px;
+  width: 30%;
+  margin-left: 20rem;
 }
 
 .img {
@@ -37,33 +46,43 @@ a {
 
 .middle-section {
   background-color: rgb(245, 245, 245);
-  padding-left: 10px;
   margin-bottom: 5%;
-}
-
-.profile-container,
-.skills-container,
-.experience-container {
   display: flex;
+  gap: 10%;
 }
 
-.profile-container h3 {
-  width: 20%;
-  text-align: center;
+.leftdiv {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding-left: 5%;
 }
 
-.skills-container h3 {
-  width: 13%;
-  text-align: center;
+.skills {
+  margin-top: 60%;
 }
 
-.experience-container h3 {
-  width: 20%;
-  text-align: center;
+.experience {
+  margin-top: 16rem;
+}
+
+.company {
+  margin: 0;
+  color: rgb(103, 140, 48);
+}
+
+.date {
+  margin: 0;
+}
+
+.rightdiv {
+  margin-right: 2%;
 }
 
 ul {
-  padding-left: 10px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 2%;
 }
 
 li::marker {
