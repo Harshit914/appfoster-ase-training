@@ -1,5 +1,5 @@
 .wrapper {
-  max-width: 1200px;
+  max-width: 75rem;
   border: 1px solid black;
   padding: 5%;
   margin: 5%;
@@ -11,6 +11,14 @@
   max-height: 20rem;
   gap: 5%;
   margin-bottom: 10%;
+}
+
+.icon-image {
+  width: 1.2rem;
+}
+
+a {
+  text-decoration: none;
 }
 
 .details-div {

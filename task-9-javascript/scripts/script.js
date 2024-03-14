@@ -1,12 +1,18 @@
 const firstinp = document.querySelector(".enternumberinput");
 const secondinp = document.querySelector(".splitinput");
 const submitbtn = document.querySelector(".btn");
+const error = document.querySelector(".error");
 
 let divsArr = [];
 
 function split() {
   let numberoftimes = parseInt(firstinp.value);
   let splittingdivs = parseInt(secondinp.value);
+  error.classList.remove("error-active");
+  if (numberoftimes < splittingdivs) {
+    error.classList.add("error-active");
+    return;
+  }
   createArrayDiv(numberoftimes, splittingdivs);
   divsArr.reverse();
   console.log(divsArr);

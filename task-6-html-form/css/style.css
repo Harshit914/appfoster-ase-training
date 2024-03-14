@@ -7,11 +7,15 @@
 }
 
 .wrapper {
-  max-width: 500px;
+  max-width: 31.5rem;
+  margin: auto;
   margin-top: 1%;
   margin-bottom: 5%;
-  margin-left: 35%;
   background-color: #f0f8ff;
+}
+
+.apply-flex {
+  display: flex;
 }
 
 .medicare {
@@ -19,11 +23,261 @@
 }
 
 .widthandmargin {
-  margin-left: 15px;
+  margin-left: 0.938rem;
 }
 
 .applygap {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 0.188rem;
+}
+
+.spacediv {
+  width: 70%;
+}
+
+.medicare-label {
+  width: 7.5rem;
+}
+
+.medi-input {
+  display: flex;
+  gap: 1%;
+}
+
+.validtill-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+}
+
+.valid-input {
+  display: flex;
+  gap: 2%;
+}
+
+.empty-div {
+  background-color: rgb(225, 225, 225);
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1px solid rgb(108, 101, 101);
+}
+
+.title {
+  margin-right: 17%;
+}
+
+.surnames {
+  display: flex;
+  margin-left: 30%;
+}
+
+.name {
+  width: 24%;
+}
+
+.pref {
+  margin-right: 7%;
+}
+
+.dob-label {
+  margin-right: 16%;
+}
+
+.gender {
+  margin-right: 24%;
+}
+
+.familydiv {
+  display: flex;
+  margin-bottom: 2%;
+}
+
+.familyname {
+  margin-right: 5%;
+}
+
+.family-input {
+  display: flex;
+  gap: 2%;
+}
+
+.nl-div {
+  background-color: rgb(225, 225, 225);
+  width: 2.375rem;
+  height: 1.375;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(108, 101, 101);
+}
+
+.homeandwork {
+  display: flex;
+  margin-left: 27%;
+  gap: 34%;
+}
+
+.phone {
+  margin-right: 14%;
+}
+
+.mobilefaxheading {
+  display: flex;
+  margin-left: 27%;
+  gap: 33%;
+}
+
+.mobilefaxdiv {
+  display: flex;
+  margin-left: 26.2%;
+}
+
+.kindiv {
+  display: flex;
+  margin-left: 27%;
+  gap: 24.5%;
+}
+
+.kin-input {
+  display: flex;
+  margin-left: 26.3%;
+}
+
+.emergency {
+  margin-right: 0.7%;
+}
+
+.email-div {
+  margin-bottom: 2%;
+}
+
+.email-label {
+  margin-right: 14.6%;
+}
+
+.fleid-div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.address-1-2 {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.address-div {
+  margin: 2%;
+}
+
+.address-details {
+  position: relative;
+}
+
+.address-heading {
+  margin-right: 8%;
+}
+
+.suburb-div {
+  display: flex;
+  gap: 4%;
+}
+
+.suburb-heading {
+  margin-right: 3.7rem;
+}
+
+.state-label {
+  margin-right: 1rem;
+}
+
+.state-dropdown {
+  width: 5rem;
+}
+
+.postal-country {
+  display: flex;
+  gap: 5%;
+  margin-bottom: 3%;
+}
+
+.postal-heading {
+  margin-right: 1.75rem;
+}
+
+.question-input {
+  display: flex;
+  gap: 3%;
+}
+
+.question-div {
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 1px solid black;
+  display: flex;
+  padding-left: 1%;
+  align-items: center;
+}
+
+/* .normal-div {
+  position: absolute;
+  width: 9.375rem;
+  height: 1.375;
+  background-color: rgb(225, 225, 225);
+  top: 36%;
+  left: 39%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.single-address {
+  margin-top: 1%;
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+.single-address-div {
+  margin-bottom: 2%;
+}
+
+.extras {
+  margin-top: 2%;
+}
+
+.ihi-div {
+  display: flex;
+  gap: 5.7%;
+}
+
+.ihi-label {
+  margin-right: 1.4%;
+}
+
+.number-status-label {
+  margin-right: 1.4%;
+}
+
+.record-label {
+  margin-right: 2.5%;
+}
+
+.laststatus-label {
+  margin-right: 6.7%;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  margin-top: 5%;
+  padding-bottom: 4%;
+}
+
+.btn {
+  width: 9.375rem;
 }

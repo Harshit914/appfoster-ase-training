@@ -8,6 +8,7 @@ body {
 input {
   text-decoration: none;
   border: 3px solid hsl(0deg 0% 94.51%);
+  margin: 0.125rem;
 }
 
 .wrapper {
@@ -17,19 +18,19 @@ input {
 .applyflex {
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  padding: 0.313rem;
 }
 
 .firstContainer {
   display: flex;
   flex-direction: column;
-  padding: 2px;
+  padding: 0.313rem;
   background-color: white;
 }
 
 .btn {
-  width: 60px;
-  height: 30px;
+  width: 3.75rem;
+  height: 1.875rem;
   color: white;
   background-color: hsl(203.26deg 100% 34.9%);
 }
@@ -37,7 +38,7 @@ input {
 .container {
   margin-top: 5%;
   display: flex;
-  height: 90px;
+  height: 5.625rem;
 }
 
 .active {
@@ -50,5 +51,14 @@ input {
 
 .btndiv {
   border-top: 5px solid hsl(0deg 0% 94.51%);
-  padding: 8px;
+  padding: 0.5rem;
+}
+
+.error {
+  display: none;
+}
+
+.error-active {
+  display: flex;
+  font-size: small;
 }

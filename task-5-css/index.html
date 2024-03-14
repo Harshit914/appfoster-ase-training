@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CSS</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -20,15 +20,18 @@
             <div class="icon-style-left">
               <img
                 src="./assets/profile-svgrepo-com.png"
-                alt=""
-                width="20px"
-                height="20px"
+                class="left-side-icon-image"
               />
             </div>
             <h2 class="title">CAREER PROFILE</h2>
           </div>
           <div>
-            <p>Some Description</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo ex
+              perferendis necessitatibus sint, reprehenderit consectetur? Beatae
+              itaque, eum provident nobis sapiente tenetur sed doloremque
+              mollitia iure libero praesentium voluptatibus quo.
+            </p>
           </div>
         </div>
 
@@ -38,19 +41,17 @@
             <div class="icon-style-left">
               <img
                 src="./assets/bag-6-svgrepo-com.png"
-                alt=""
-                width="20px"
-                height="20px"
+                class="left-side-icon-image"
               />
             </div>
             <h2 class="title">EXPERIENCES</h2>
           </div>
           <div>
-            <div style="display: flex; justify-content: space-between">
+            <div class="experience-content-container">
               <h4>ASE Intern</h4>
               <p class="fade-text">2024-Present</p>
             </div>
-            <p style="margin-bottom: 10px" class="fade-text">AppFoster</p>
+            <p class="fade-text company">AppFoster</p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
               veritatis tenetur harum saepe corrupti tempora eveniet culpa, quas
@@ -66,9 +67,7 @@
             <div class="icon-style-left">
               <img
                 src="./assets/box-svgrepo-com.png"
-                alt=""
-                width="20px"
-                height="20px"
+                class="left-side-icon-image"
               />
             </div>
             <h2 class="title">PROJECTS</h2>
@@ -82,9 +81,9 @@
             </p>
 
             <p>
-              <span style="color: green; font-weight: 600">Resume - </span>A
-              responsive website template designed to help with web
-              developers/designers market their services.
+              <span class="resume-span">Resume - </span>A responsive website
+              template designed to help with web developers/designers market
+              their services.
             </p>
           </div>
         </div>
@@ -95,9 +94,7 @@
             <div class="icon-style-left">
               <img
                 src="./assets/rocket-filled-svgrepo-com.png"
-                alt=""
-                width="20px"
-                height="20px"
+                class="left-side-icon-image"
               />
             </div>
             <h2 class="title">SKILLS & PROFICIENCY</h2>
@@ -105,11 +102,15 @@
           <div class="combine-skills">
             <div class="line-div">
               <h4 class="line-div-heading1">HTML & CSS</h4>
-              <div class="line1"></div>
+              <div class="line1">
+                <div class="line1-insidediv">.</div>
+              </div>
             </div>
             <div class="line-div">
               <h4 class="line-div-heading2">C++</h4>
-              <div class="line2"></div>
+              <div class="line2">
+                <div class="line2-insidediv">.</div>
+              </div>
             </div>
           </div>
         </div>
@@ -119,13 +120,7 @@
       <div class="right-side">
         <!-- Photo Section -->
         <div class="photo-section">
-          <img
-            class="image"
-            src="./assets/My_Photo.jpg"
-            alt="My Photo"
-            width="100px"
-            height="100px"
-          />
+          <img class="image" src="./assets/My_Photo.jpg" alt="My Photo" />
           <p class="name">Harshit Srivastava</p>
           <p class="role">ASE Intern</p>
         </div>
@@ -133,76 +128,64 @@
         <!-- Details Section -->
         <div class="details">
           <div class="icons-div-right">
-            <img
-              src="./assets/email-1572-svgrepo-com.png"
-              alt=""
-              width="20px"
-              height="20px"
-            />
-            <p class="website">harshitappfoster.com</p>
+            <img src="./assets/email-1572-svgrepo-com.png" class="righticons" />
+            <p class="website">
+              <a href="mailto:harshit.srivastava@appfoster.com">Email</a>
+            </p>
           </div>
 
           <div class="icons-div-right">
             <img
               src="./assets/phone-call-phone-svgrepo-com.png"
-              alt=""
-              width="20px"
-              height="20px"
+              class="righticons"
             />
-            <p class="number">+918299846359</p>
+            <p class="number"><a href="tel:+918299846359">+918299846359</a></p>
           </div>
 
           <div class="icons-div-right">
             <img
               src="./assets/internet-web-communication-svgrepo-com.png"
-              alt=""
-              width="20px"
-              height="20px"
+              class="righticons"
             />
-            <p class="portfolio">portfolio.com</p>
+            <p class="portfolio">
+              <a href="https://harshitsrivastava-portfolio.vercel.app/"
+                >Portfolio</a
+              >
+            </p>
           </div>
 
           <div class="icons-div-right">
-            <img
-              src="./assets/linkedin-svgrepo-com.png"
-              alt=""
-              width="20px"
-              height="20px"
-            />
-            <p class="linkedinacc">linkedIn URL</p>
+            <img src="./assets/linkedin-svgrepo-com.png" class="righticons" />
+            <p class="linkedinacc">
+              <a href="https://www.linkedin.com/in/harshitsrivastava77/"
+                >LinkedIn</a
+              >
+            </p>
           </div>
 
           <div class="icons-div-right">
-            <img
-              src="./assets/github-142-svgrepo-com.png"
-              alt=""
-              width="20px"
-              height="20px"
-            />
-            <p class="githubacc">github.com/Harshit914</p>
+            <img src="./assets/github-142-svgrepo-com.png" class="righticons" />
+            <p class="githubacc">
+              <a href="https://github.com/Harshit914">GitHub</a>
+            </p>
           </div>
 
           <div class="icons-div-right">
-            <img
-              src="./assets/twitter-svgrepo-com.png"
-              alt=""
-              width="20px"
-              height="20px"
-            />
-            <p class="twitteracc">twitter.com/Harshit914</p>
+            <img src="./assets/twitter-svgrepo-com.png" class="righticons" />
+            <p class="twitteracc"><a href="#">Twitter</a></p>
           </div>
         </div>
 
         <!-- Education -->
         <div class="education">
-          <h4 style="padding-bottom: 10px">EDUCATION</h4>
+          <h4 class="education-heading">EDUCATION</h4>
           <div class="edu1">
-            <h4 style="padding-bottom: 2px">B.Tech in Computer Science</h4>
+            <h4 class="degreename">B.Tech in Computer Science</h4>
             <p class="fade-text">UCEM</p>
             <p class="fade-text">2019-2023</p>
           </div>
           <div class="edu2">
-            <h4 style="padding-bottom: 2px">12th From Maths and Science</h4>
+            <h4 class="degreename">12th From Maths and Science</h4>
             <p class="fade-text">BJC</p>
             <p class="fade-text">2018-2019</p>
           </div>

@@ -19,7 +19,7 @@
   display: flex;
   justify-content: space-between;
   border-top: 1px solid rgb(213, 212, 212);
-  padding-top: 15px;
+  padding-top: 1.5%;
 }
 
 .data-heading {
@@ -28,5 +28,5 @@
 
 .data-div {
   display: flex;
-  gap: 5px;
+  gap: 0.313rem;
 }
